@@ -1,0 +1,23 @@
+{
+    "version": "latest",
+    "description": "An open marketplace for independent digital creators with a focus on independent video games.",
+    "license": "MIT",
+    "homepage": "https://itch.io",
+    "url": "http://nuts.itch.zone/download/windows#/itchInstaller.exe",
+    "bin": "itchInstaller.exe",
+    "installer": {
+      "file": "itchInstaller.exe",
+      "args": [
+        "--silent"
+      ],
+      "keep": true
+  },
+  "uninstaller":{
+    "file": "itchInstaller.exe",
+    "args": [
+      "--uninstall"
+    ],
+    "keep": true
+  }
+    
+}
